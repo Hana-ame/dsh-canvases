@@ -1,0 +1,22 @@
+PASS one synthetic workspace root owner exists
+PASS the tree roots at the workspace, not per agent
+PASS files belong to the workspace root
+PASS no direct children are auto-placed into a folder
+PASS folder node counts total children and split count
+PASS splitChild splits exactly one child
+PASS the split list contains folders and files
+PASS a folder child becomes a revealed node
+PASS a file child becomes a free node
+PASS hover resolves a path scope (agent cwd or folder)
+PASS sections highlight when in scope
+PASS files highlight when in scope
+PASS no global loose column remains
+PASS unplaced files are not drawn
+PASS CANVAS_ONLY flag is on
+PASS agent creation is gated off the toolbar
+PASS projection/export/session toggles are gated
+PASS chat dock is not rendered in canvas-only mode
+PASS reset clears manual AND revealed AND cache
+PASS reset puts the viewport back
+PASS toolbar reset button calls resetCanvas
+ALL PASS (21)

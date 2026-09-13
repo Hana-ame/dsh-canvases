@@ -1,0 +1,3 @@
+const fs=require('fs'),path=require('path')
+function walkBFS(root,limit){ const out=[]; const q=[{p:root,d:0}]; while(q.length && out.length<limit){ const it=q.shift(); let list; try{ list=fs.readdirSync(it.p,{withFileTypes:true}) }catch(e){ continue } for(const e of list){ if(e.name==='node_modules'||e.name==='.git'||e.name==='.cache'||e.name==='dist'||e.name==='build') continue; const cp=path.join(it.p,e.name); const isDir=e.isDirectory(); out.push({path:cp,type:isDir?'directory':'file'}); if(isDir && it.d+1<8) q.push({p:cp,d:it.d+1}); if(out.length>=limit) break } } return out }
+for(const root of ['/tmp']){ let t0=Date.now(); const e=walkBFS(root,4000); let t1=Date.now(); console.log(root,'entries',e.length,'walk ms',t1-t0) }

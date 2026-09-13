@@ -1,0 +1,265 @@
+{
+ "boot": "{\"calls\":{\"canvas-sessions\":2,\"canvas-presets\":2,\"canvas-list-files\":1,\"canvas-read-text\":2},\"renders\":4}",
+ "exceptions": [],
+ "totalOps": 154,
+ "roundRects": 33,
+ "bezier": 12,
+ "arcs": 7,
+ "fillTexts": 74,
+ "uniqueTexts": [
+  "A1",
+  "[D] a1",
+  "2 项",
+  "[D] pkg",
+  "1 项",
+  "[D] sub",
+  "3 项",
+  "[D] inner",
+  "[F] root.ts",
+  "root.ts",
+  "[F] README.md",
+  "读取中…",
+  "[F] s1.ts",
+  "sub/s1.ts",
+  "[F] s2.md",
+  "[F] s3.ts",
+  "sub/s3.ts",
+  "[F] x.ts",
+  "pkg/inner/x.ts",
+  "[F] y.ts",
+  "pkg/y.ts"
+ ],
+ "rects": [
+  [
+   "roundRect",
+   190,
+   10,
+   220,
+   214
+  ],
+  [
+   "roundRect",
+   190,
+   250,
+   220,
+   88
+  ],
+  [
+   "roundRect",
+   190,
+   364,
+   220,
+   266
+  ],
+  [
+   "roundRect",
+   480,
+   10,
+   220,
+   88
+  ],
+  [
+   "roundRect",
+   200,
+   36,
+   200,
+   44
+  ],
+  [
+   "roundRect",
+   200,
+   88,
+   200,
+   118
+  ],
+  [
+   "roundRect",
+   200,
+   390,
+   200,
+   44
+  ],
+  [
+   "roundRect",
+   200,
+   442,
+   200,
+   118
+  ],
+  [
+   "roundRect",
+   200,
+   568,
+   200,
+   44
+  ],
+  [
+   "roundRect",
+   490,
+   36,
+   200,
+   44
+  ],
+  [
+   "roundRect",
+   200,
+   276,
+   200,
+   44
+  ],
+  [
+   "roundRect",
+   190,
+   10,
+   220,
+   214
+  ],
+  [
+   "roundRect",
+   190,
+   250,
+   220,
+   88
+  ],
+  [
+   "roundRect",
+   190,
+   364,
+   220,
+   266
+  ],
+  [
+   "roundRect",
+   480,
+   10,
+   220,
+   88
+  ],
+  [
+   "roundRect",
+   200,
+   36,
+   200,
+   44
+  ],
+  [
+   "roundRect",
+   200,
+   88,
+   200,
+   118
+  ],
+  [
+   "roundRect",
+   200,
+   390,
+   200,
+   44
+  ],
+  [
+   "roundRect",
+   200,
+   442,
+   200,
+   118
+  ],
+  [
+   "roundRect",
+   200,
+   568,
+   200,
+   44
+  ],
+  [
+   "roundRect",
+   490,
+   36,
+   200,
+   44
+  ],
+  [
+   "roundRect",
+   200,
+   276,
+   200,
+   44
+  ],
+  [
+   "roundRect",
+   190,
+   10,
+   220,
+   214
+  ],
+  [
+   "roundRect",
+   190,
+   250,
+   220,
+   88
+  ],
+  [
+   "roundRect",
+   190,
+   364,
+   220,
+   266
+  ],
+  [
+   "roundRect",
+   480,
+   10,
+   220,
+   88
+  ],
+  [
+   "roundRect",
+   200,
+   36,
+   200,
+   44
+  ],
+  [
+   "roundRect",
+   200,
+   88,
+   200,
+   118
+  ],
+  [
+   "roundRect",
+   200,
+   390,
+   200,
+   44
+  ],
+  [
+   "roundRect",
+   200,
+   442,
+   200,
+   118
+  ],
+  [
+   "roundRect",
+   200,
+   568,
+   200,
+   44
+  ],
+  [
+   "roundRect",
+   490,
+   36,
+   200,
+   44
+  ],
+  [
+   "roundRect",
+   200,
+   276,
+   200,
+   44
+  ]
+ ]
+}
