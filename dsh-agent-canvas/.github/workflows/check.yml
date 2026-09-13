@@ -1,0 +1,29 @@
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  cordis-preflight:
+    name: Cordis package pre-flight (node ${{ matrix.node }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ["18.x", "20.x", "22.x"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Validate both package halves
+        run: node scripts/check.mjs
+      - name: Test the Host half against fake DSH services
+        run: node scripts/selftest.mjs
+      - name: Refuse to emit an install prompt for a broken package
+        run: node scripts/install.mjs --json > install.json
+      - name: Show the emit
+        run: cat install.json

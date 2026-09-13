@@ -1,0 +1,37 @@
+{
+  "name": "dsh-session-canvas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Session-topology canvas for the DeepSeek Harness Web GUI, shipped as a dynamic Cordis plugin.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "check:json": "node scripts/check.mjs --json",
+    "selftest": "node scripts/selftest.mjs",
+    "selftest:json": "node scripts/selftest.mjs --json",
+    "gate": "npm run check && npm run selftest",
+    "test": "npm run gate",
+    "install": "node scripts/install.mjs",
+    "install:prompt": "node scripts/install.mjs --prompt",
+    "emit": "node scripts/install.mjs --json"
+  },
+  "files": [
+    "src",
+    "scripts",
+    "README.md"
+  ],
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "cordis",
+    "plugin",
+    "canvas",
+    "sessions",
+    "topology"
+  ]
+}
